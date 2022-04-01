@@ -1,0 +1,30 @@
+.SearchCardComponent{
+    width: 400px;
+    height: 250px;
+    contain: content;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
+}
+.SearchCardComponent:hover{
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+  
+}
+.SearchCardComponent>img{
+    height: 200px;
+    width: 100%;
+}
+.SearchCardComponentHead{
+    font-size: 25px;
+    font-weight: 500;
+}
+.SearchCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 280px;
+    overflow-y: scroll;
+}
