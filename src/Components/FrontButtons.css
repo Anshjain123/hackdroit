@@ -1,0 +1,17 @@
+.flex{
+    display: flex;
+    padding-top: 52px;
+    justify-content: space-evenly;
+}
+.dropdown1{
+    flex: 0.2;
+}
+.dropdown2{
+    flex: 0.2;
+}
+.getplaces{
+    padding: 50px;
+}
+.searchicon{
+    padding-right: 5px;
+}

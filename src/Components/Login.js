@@ -18,7 +18,7 @@ const Login = () => {
         password: ""
     });
     const responseGoogle = (response) => {
-        console.log("YEHA"); 
+        
         console.log(response);
     }
 
@@ -104,7 +104,7 @@ const Login = () => {
                                 <div className="flex">
                                     
                                     <GoogleLogin
-                                        clientId="34025702852-t29pkh1hi1ub9st8cgt6d84i6vatgbfr.apps.googleusercontent.com"
+                                        clientId="109272294286-vh4661ubc1jnocqt52kfnucfck4mo1ap.apps.googleusercontent.com"
                                         
                                         buttonText="Login / SignUp"
                                         onSuccess={responseGoogle}
