@@ -14,7 +14,6 @@ function App() {
       <Carousal />
       <div className="front">
         <FrontButtons />
-        <Search />
       </div>
       <div className='fle'>
         <Footer />
