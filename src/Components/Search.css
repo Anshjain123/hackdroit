@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .SearchCardComponent {
   width: 400px;
   height: 250px;
@@ -56,3 +57,65 @@
   overflow-y: scroll;
   height: 640px;
 }
+=======
+.SearchCardComponent{
+    width: 400px;
+    height: 250px;
+    contain: content;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
+}
+.SearchCardComponent:hover{
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+  
+}
+.SearchCardComponent>img{
+    height: 200px;
+    width: 100%;
+}
+.SearchCardComponentHead{
+    font-size: 25px;
+    font-weight: 500;
+}
+.SearchCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 280px;
+    overflow-y: scroll;
+}
+.SelectedCardComponent{
+    width: 48%;
+    height: 300px;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 15px;
+    contain: content;
+}
+.SelectedCardComponent:hover{
+    box-shadow: 0 1px 2px rgba(128, 128, 128, 0.07), 0 2px 4px rgba(135, 135, 135, 0.07),
+    0 4px 8px rgba(95, 94, 94, 0.07), 0 8px 16px rgba(110, 109, 109, 0.07),
+    0 16px 32px rgba(108, 107, 107, 0.07), 0 32px 64px rgba(103, 101, 101, 0.07);
+  cursor: pointer;
+  border:0.5px solid grey;
+
+}
+.SelectedCardComponent>img{
+    width: 65%;
+}
+.SelectedCardComponentBody{
+    flex: 1;
+}
+.SelectedCards{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+    height: 640px;
+}
+>>>>>>> 98ca8f552c27d611ebfac4d0014f3604a70df923

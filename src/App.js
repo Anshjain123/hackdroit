@@ -5,7 +5,10 @@ import Navbar from './Components/Navbar';
 import Carousal from './Components/Carousal';
 import FrontButtons from './Components/FrontButtons';
 import Footer from './Components/Footer';
+<<<<<<< HEAD
 import EventPage from './Components/EventPage';
+=======
+>>>>>>> 98ca8f552c27d611ebfac4d0014f3604a70df923
 import Search from './Components/Search';
 
 function App() {
