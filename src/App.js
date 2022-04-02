@@ -5,19 +5,23 @@ import Navbar from './Components/Navbar';
 import Carousal from './Components/Carousal';
 import FrontButtons from './Components/FrontButtons';
 import Footer from './Components/Footer';
+import EventPage from './Components/EventPage';
+import Search from './Components/Search';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Carousal/>
+      <Navbar />
+      <Carousal />
       <div className="front">
-      <FrontButtons />
+        <FrontButtons />
       </div>
       <div className='fle'>
-      <Footer />
+        <Footer />
       </div>
       {/* <Login/> */}
+      {/* <EventPage/> */}
+      {/* <Search/> */}
     </div>
   );
 }

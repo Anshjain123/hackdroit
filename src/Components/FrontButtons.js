@@ -64,7 +64,7 @@ function FrontButtons() {
                 />
 
             </div>
-            <div className="getplaces" >
+            <div className="getplaces" style={{marginLeft:'650px'}}>
                 <Button disabled= {!flag1 || !flag2} style = {{borderRadius:'25px'}}  variant="contained"><SearchIcon className = "searchicon"/>Search</Button>
             </div>
         </>
